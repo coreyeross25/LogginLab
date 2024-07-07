@@ -29,7 +29,7 @@ public class LogginLabTest {
                 logger.log(Level.INFO, "Threshold not reached! It is " + i);
                 assertTrue(lab.thresholdReached(i));
             } else {
-                logger.log(Level.INFO, "Threshold reached! It is " +i);
+                logger.log(Level.INFO, "Threshold Reached! It is " + i);
                 assertFalse(lab.thresholdReached(i));
 
             }
