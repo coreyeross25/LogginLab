@@ -19,7 +19,7 @@ public class LogginLabTest {
 
     @org.junit.Test
     public void thresholdReached() {
-        Integer finalLimit = 10;
+        Integer finalLimit = 20;
 
         LogginLab lab = new LogginLab();
         lab.setThreshold(finalLimit);
